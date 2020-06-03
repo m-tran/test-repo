@@ -8,5 +8,11 @@ describe("Add", () => {
             expect(add(2,2)).toBe(4);
         });
     });
+
+    describe("Failure", () => {
+        it("should throw an error if first argument isn't a number", () => {
+            expect(() => add("2", 2)).toThrowError();
+        });
+    });
     
 });
