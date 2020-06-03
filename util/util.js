@@ -4,6 +4,10 @@ const add = (arg1, arg2) => {
     return arg1 + arg2;
 }
 
+const minus = (num1, num2) => {
+
+};
+
 //set up as export to use jest
 //can be used in another file
-module.exports = { add };
+module.exports = { add, minus };

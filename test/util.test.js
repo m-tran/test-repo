@@ -13,6 +13,12 @@ describe("Add", () => {
         it("should throw an error if first argument isn't a number", () => {
             expect(() => add("2", 2)).toThrowError();
         });
+
+        it("should throw an error if second argument isn't a number", () => {
+            expect(() => add(2, "2")).toThrowError();
+        });
     });
-    
+
+    describe("Minus", () => {});
+
 });
